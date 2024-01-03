@@ -1,0 +1,284 @@
+class 1: toogle screen cast
+
+class 2: live preview
+
+class 3: 1. meta tags are describing tags they are self-closing tags also
+         2. to preview the code in mobile just copy your ip address by using terminal and type ipconfig, copy ip4address and paste that in live preview, and paste in host ip. restart vs code. make sure that wifi is private
+
+class 4: 1. lang="en" describes that lang is attribute and en that is english is language
+         2. ctrl D key copies the line downwards
+         3. Pressing alt and clicking will make multiple cursors
+         4. Lorem gives dummy text, use it as place holders
+         5. ctrl and / makes comments
+         6. The colour of anchor tag changes when visited 
+         7. To make Anchor tag be visited in a new tab:-
+                a. click scroll button
+                b. add attribute to anchor tag- target="_blank"
+         8. Clicking End key will make cursor go to end
+         9. Paragraph tag makes things go in next line
+
+class 5: 1. Windows + shift + s makes snip tool
+         2. Image tag have attributes namely src and alt and width
+         3. Width attribute dont need px to be written
+         4. It is necessary to write width or height in every image for seo purposes
+         5. If only width or height is writtern, other is adjusted atomatically
+         6. Table tag for table, th for heading and tr for row and td is for data
+         7. Rowspan and Colspan attribute 
+         8. We can add captions in table
+         9. For grouping table elements we use thead, tbody and tfoot.
+         10. 3 types of lists- unordered, ordered, and definition lists
+         11. Definition lists have dt and dd
+         12. To change appearence of bullets- type attribute
+         13. For ordered- circle disk and square
+         14. For unordered- I i 1 a a
+
+class 6: 1. Seo stands for search engine optimisation
+         2. core web vitals are used to rank web pages
+         3. in cwv, content is first checked
+         4. CLV, cumulative layout shift that means how much content is getting shifted while loading
+         5. LCP, largest contentful paint, that means how much time to load the biggest element of a page, maximum time 2.5 sec
+         6. FID, that means first input delay
+         7. Lighthouse report tells that how much improvement can be made 
+         8. Title should reflect content so that it makes good seo chances
+         9. Desc for ranking web pages
+         10. Meta Keywords are deprecated now, useless
+         11. PWA stands for Progressive web apps
+
+class 7: 1. Div is used to make a new block in the page
+         2. label is the name of any form tag
+         3. To connect label and any form tag, just type for="{id of any form tag}"
+         4. Perfer using lable in radio tags
+         5. Dont use br tag to get new lines
+         6. In action attribute, we use getresquest or post request. post is used for big and sensitive data.
+
+class 8: 1. Inline elements occupy required space 
+         2. Block element occupy full space
+         3. HTML does not include code spaces
+
+class 9: 1. ID is unique identifier
+         2. Class is a term used to describe an element that it belongs to a class with having elements of common properties.
+         3. ID and classes are attributes of elements
+         4. To identify class in css we use- .{class}
+         5. To identify class in css we use- #{ID}
+         6. IDs are also used to focus any element on web page by writing # and ID of the object after the link
+
+class 10: 1. In Video tag, src for source, controls for controls, autoplay for autoplay, Loop for Loop, muted for default mute
+          2. Poster is used for applying Thumbnail
+          3. Same with audio tabe.
+          4. Preload attribute is for preload of audio, values are none, metadata for preload details of it and auto to preload it.
+          5. SVG, scalable vector graphics is a format to create high definition graphics.
+          6. For storing SVG in separate file, just make sure to add attribute- xmlns="http://www.w3.org/2000/svg"
+          7. iFrames are used to embedd any web page.
+          8. Just add src to it.
+          9. iFrame is also used in embedding youtube videos.
+
+class 11: 1. Semantic tags are useful for ranking and for explaining web browsers about your web page.
+          2. These include heeader, nav, main, aside, article, footer, section, figure and figcaption, time tag is also included
+          3. It enhances SEO.
+          4. Semantic tags are introduced in HTML5
+
+class 12: {1 exercise}
+
+class 13: 1. Semantic tags are used for those things which collide with html things.
+          2. Pre tag is used to display things as it is typed including spaces and lines.
+          3. &nbsp is used for adding more spaces
+          4. blockquote and q tag is used for quotes.
+          5. This makes easier for browsers to understand
+          6. HTML is now getting modern, some tags are now obsolete which means they are deprected.
+          7. this include font, centre and u
+          8. To show code on web page we just write code tag in pre tag and replace all <> with &lt; and &gt; by clicking change all occurence
+          9. shift tab decreases indent.
+
+class 14: 1. CSS have selector and declaration
+
+class 15: 1. To use CSS we have 3 ways by inline, internal and external
+          2. avoid inline css
+
+class 16: {1 solution}
+
+class 17: 1. name selector means div span
+          2. Class and ID selector
+          3. Child selector means div > p means p is direct child of div
+          4. Descendant selector means div p here p should be under div, it does not care which generation it is
+          5. Universal selector means * , it applies to all the elements
+          6. Pseodo selector means a:visited/link/active/hover
+          7. Group selector means div, p, span
+
+class 18: 1.height determines the height of the element
+          2. But after writing box sizing:border-box, it will give the width of the element with its padding and border
+          3. Margin collapse means that margin will be applied of bigger number of elements
+
+class 19: 1. Fallback fonts means seogue UI, Geneva, Times new Roman....
+          2. Overline makes line over text
+          3. Line height means line spacing
+          4. Letter spacing is also present
+          5. Capitalise, lowercase and upppercase
+          6. text decoration underline also, text decoration color
+          7. Tip:- text decoration for underline on hover
+          8. WE can add indent before text
+          9. Word break breaks the Word
+          10. Overflow hidden means it will hide over flown text
+          11. If text overflow is ellipse, it will ellipse flown text
+          12. css colors: name, hex, rgb, rgba, hsl
+
+class 20: exercise
+
+class 21: 1. Attribure selector means if some element have that attribute
+          2. More specifity more selectance
+
+class 22: 1. Pixel is the 196th of an inch.
+          2. vw means viewport width
+          3. Margin auto will center
+          4. Margin Auto does not work on inline elements.
+          5. english phrase:- but a lot is yet to come
+          6. Default font size is 16 but mera 14 aa raha hai
+          7. em means default's {n} times or font size of inherited size of parent x {n}
+          8. HTML is the root element
+          9. rem same as em but the value is not taken by parent but roor element
+          10. % unit means {n%} of parent'same
+          11. min-width is the minimum width of the element
+
+class 23: 1.display inline-block means that margin, padding, width, etc will make effect
+          2. As inline display does not hold these properties properly 
+          3. display none will remove the element with its space
+          4. Visibility hidden will only hide the element and the space will remain
+
+class 24: 1. box shadow: horizontal vertical blur spread inset;
+          2. Outline is quite different from border, outline does not affect the box model of the element
+          3. we can change its offset
+          4. outlines follow border radius
+
+class 25: 1.Display list item for li, display block for li will make bullets dissappear
+          2. We can change list style type
+          3. to call bullets or markers inside, just add list style postion inside, it is needed while setting a bg
+          4. We can set list style image.
+          5. TIP:- for ayats use this!!
+
+class 26: 1. Overflow scroll will show scrolls
+          2. Overflow auto will show scroll when needed
+          3. No wrap white space will not show text horizontally
+          4. after text overflow ellipses, scroll is useless
+          5. shortcut for x and y overflow is overflow {x y}
+          6. TIP:- use auto bcoz it is recommended
+
+class 27: 1. :nth-child(n) means the number of child it is will apply the style to
+          2. We can also write not(:first-child) in selector name
+
+class 28: 1. Position is static by default
+          2. We can not use  top bottom etc with postion style static
+          3. to set z index we nedd to remeove static
+          4. Absolute position will make changes according to parent
+          5. position fixed will fix the element on the screen
+          6. sticky will make anvbar
+          7. transform, filter and perspective can show an element positoned, child will get according to it even there is no position fixed property 
+
+class 29: {exercise}
+
+class 30: 1. To declare css variables, write :root as selector and in that write --{variable name}: value;
+          2. We can overwrite variables
+          3. We can set Fallback variable 
+
+class 31: 1. In css2 media query was media rule
+          2. To write media query, write @media not/only mediatype and {expression} and then type the cssk
+          3. practically, @media only screen and (max-width:{size})
+
+class 32: {exercise solution}
+
+class 33: {exercise}
+
+class 34: 1. If, we have image and txts or elements, we can se foat left or right, so that it will float the image right side,
+             the text will not collide with the image
+          2. For some reason if you dont want to float an element for an element, we can set float clear to get rid of it
+          3. AVOID FLOAT
+
+class 35: 1. .box:first means if .box is the first child of its parent
+          2. We can set css for ::first-line and even ::first-letter
+          3. slector and * will say that all childrens under this will hold the property
+          4. nth child even can be used
+          5. before and after are Pseodo elements
+          6. we can add css when element is ::selection
+          7. We can tarhet placeholder by input::placeholder and add css
+
+class 36: {exercise solution}
+
+class 37: {exercise}
+
+class 38: 1.To use flex display, set display flex to parent {for container}
+          2. Justify content centre will centre items at main axis {for container}
+          3. align item center will center children at cross axis {for container} it is used whien we have one row
+          4. In flex direction, the direction at which flex objects are going is main axis, the other is cross axis {for container}
+          5. Align content will align all content at centre with no center space {for container}
+          6. gap property define gap between objects, column and rows are defined separately also {for container}
+          7. order property for child, determone order by more no, most last
+          8. Flex grow for child, means more no. more grow
+          9. align self for child, it will align item to {value, flec start or end etc}
+          10. justify item for child, it will align item to {value}
+
+class 39: 1. If we apply display grid to container and set grid template colum and row
+          2. to locate grid elements, write grid row and grid column by 1/3 or whatever
+          3. We can name areas of grid by"nav nav nav"... and use them by writing grid area nav
+          4. fr is a unit specially used with grid.
+          5. 1fr means 1 fraction of parent
+          6. TIP:- dont use padding in flexbox use GAP
+          7. Repear and minmax function can be used in css
+          8. Justify content will justify the whole grid
+          9. place content center is combination of align contetn and justify content 
+          10. without flex box we can center non flex item by text align center
+
+class 40: {exercise solution}
+
+class 41: {exercise}
+
+class 42: 1. transform, rotate units are deg and turn{0.25turn}
+          2. Rotate x y z will rotate at x y z
+          3. scale will scale similarly x y z axiz
+          4. Skew will skew, in degree
+          5. No skew in z axis
+          6. translate in % will move it {%} of the scale
+          7. We can apply multiple transforms by giving spave
+          8. TIP:- Translate is used while hiding navbar
+          9. Transform origin will Transform the origin by x and y
+
+class 43: {exercise solution}
+
+class 44: {exercise}
+
+class 45: 1. Transition property for which will be the transition
+          2.
+
+class 46: 1. We write animation by @keyframes, and adding from and to selector
+          2. animation heve name, duration, timing, delay, iteration, direction, fill mode
+          3. Animation direction- alternate reverse is often used
+          4. Animation play state is used to pause or something else
+          5. fill mode forward will remain the object at final position after completing
+          6. We can add multiple animations
+
+class 47: {exercise solution}
+
+class 48: {exercise}
+
+class 49: 1. object fit cover will fill the image in respect to its given w and h
+          2. object fit contain will not cut the image and will do fit with image's aspect ratio
+          3. object position will show the given part of cut image when cover is active
+          4. we can add background
+
+class 50: 1. in filters, we have blur, brightness, conteratst, sepia and grayscale, opacity, invert
+          2. TIP:- use grid and stack all on ine another then add opacity, hue
+
+class 51: {exercise}
+
+class 52: 1. You can go to development mode in figma
+          2. Pressing c will add comment
+          3. we first add Frame
+
+class 53: clone
+
+class 54 and 55: 1. we can change styles and elements of html and css by document.title and document.{element}.{attribute}.{sub-attribute} =
+          2. cosole.log(typeof {variable}) will provide data type
+          3. Let is block scope
+          4. We can make a block in {}
+          5. JS is linter 
+          6. We should use double quotes when defining a variable with spaces
+          7. An object is made by key and value.
+
+Class 56: 1. if else in one line will look like:- c = a > b ? (a - b) : (b - a)

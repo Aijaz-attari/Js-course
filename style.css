@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    /* z-index: 100; */
+}
+
+body {
+    background-color: black;
+}
+body > div{
+    /* position: absolute; */
+
+    img{
+        width: inherit;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+    }
+}
+/* h1 {
+    color: #ffc107;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 3vw;
+    text-align: center;
+} */
+
+img {
+    width: 50px;
+    height: 100%;
+}
+
+/* navbar */
+header {
+    height: 25px;
+    background-color: #000000a9;
+    padding: 20px 50px 20px 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: auto; */
+
+        /* margin: 20px 10px 20px 200px; */
+
+        li {
+
+            font-size: 1.2vw;
+
+            a {
+                padding: 10px 15px;
+                margin: 0px 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgb(35, 54, 45);
+                border-radius: 9px;
+            }
+        }
+
+    }
+}
+
+main{
+    color: black;
+    .divBox{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        background: white;
+
+        border-radius: 200px;
+        padding: 5px 10px;
+        height: 33px;
+        .box{
+            color: rgb(167, 167, 167);
+            text-align: left;
+            padding:15px 29vw 15px 10px;
+            font-size: 1.2rem;
+        }
+        
+    }
+}
+.google{
+    color: black;
+    img{
+        width: 30px;
+    }
+}
+.icon{
+    color: black;
+    img{
+        width: 26px;
+    }
+}
+
+main > div > ul{
+    /* grid: 50px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* gap: 2px; */
+    /* width: 40vw; */
+    /* margin: auto; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    li{
+        width: 100%;
+        padding: 10%;
+        a{
+            background-color: rgb(124, 124, 124);
+            font-size: 20px;
+            padding: 20px 100px;
+           
+        }
+    }
+}

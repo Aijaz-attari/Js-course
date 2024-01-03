@@ -1,0 +1,5 @@
+---------COMPLETE BEGIN-------
+1.Use safe web fonts https://web.mit.edu/jmorzins/www/fonts.html
+2. source like  ../my-image.jpg
+3. Make separate folders
+4. Img tag is void

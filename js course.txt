@@ -1,0 +1,74 @@
+class 2: 1. console.table for table
+         1. console.warn for warn
+         3. console.clear will clear
+         4. To find how much time it took to execute the code, use console.time, .log and .end 
+         5. .assert will print an error if the given condition is true
+         6. console.error
+
+class 3: 1. Use `` when describe html in js
+         2. const cant be redeclared but const of array can be declared by using push
+         3. there are various cases to describe variables in javascript. camelCase kebab-case snake_case PascalCase
+
+class 4. 1. Seven data types that are primitives: string, number, boolean, null, undefined, and symbol
+         2. refer mdn docs
+
+class 5. 1. to convet data type to string while declaration, just type String(value)
+         2. use toString(value) to convert 
+         3. we can parse the value of number by parse float and int
+         4. to describe the number of digits after decimals, add tofixed
+         5. we can see charat, concat, indexof, lastindexof, endswith, inculdes, sunstirng(x, y), slice and replace{first occurence}
+         5. split will split the string where the given value is written in arrays
+         6. temlate literals means html in js using `` and printing exact what needed with html sense
+         7. prefer uning ${} for variable in string
+         8. We can insert html in js by writing document.body.innerhtml = {variable with html}
+
+class 6. 1. Array.isArray() tells that it is array or not
+         2. we can assign elements in array by arr[3] = {element}
+         3. push will add the elemnt in array at last
+         4. unshift will add element at start
+         5. pop will remove the last element
+         6. shift will remove first element
+         7. splice will remove the elements from (from, no. of elements)
+         8. reverse will reverse the array
+         9. all methods will change the original array
+         10. concat will cantact element
+         
+class 7. 1. == will check exact value, whereas === will also check type
+         2. elseif is there
+         3. ! means not
+         4. !== is used when you want to check that there is any variable which is defined or not, so write {variable} !== 'undefined
+         5. && means and 
+         6. || means or
+         7. tereneray operator format {varaible} == {value}? {if condition} : {else condition}
+         8. switch case break default function
+
+class 8. 1. i++ will increase 1
+         2. do while loop will do the code one time only and then implement the condition of while
+         3. break means stop the loop and continue the further code
+         4. continue will skip the current iteration and continue the further iterations
+         5. To iterate the array use, foreach(function({element/index/array}){console.log{varaible}})
+         6. in for in loop, key means value and {variable}[key] means property  
+
+class 10. 1. in func, function {name}(variable 1, ...2, ...3){code} {name}(first value, second value)
+          2. we can add default value to variables of func
+          3. return in func will return anything
+          4. console of call of func will by undefined
+
+class 11. 1. innerheight and width will tell h and w
+          2. scrollX AND Y tell value
+          3. location have reload, href, we can set href to another website also, toString gives url of current page
+          4. history have length to go back and go ahead (-1)
+          5. you can tell window. or only property
+          6. alert, promp, confirm, links
+          7. we can access all by documnet.all un form of array by Array.from(a).fromeach(function(c) console.log(c))
+
+class 13. 1. let a = document.links; Array.from(a).forEach(function (element) {let b = element.href;let bn = b.includes('google');if (bn) {console.log(b)}})
+
+class 14. 1. we can target elements by getElementById, className(nogebi), childNodes, parentNode
+          2. we can apply css by .style.property = value
+          3. we can change selected element text by .innertext =""
+          4. we can change selected element code using html tags by .innerHTML =""
+          5. query selector means document.querySelector('#/./ tag')
+          6. these all will apply only to single element
+          7. gebiClassName will select all classes
+          8. gesbiTagName will select all tag

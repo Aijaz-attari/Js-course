@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #25283d;
+}
+img {
+    width: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    align-items: normal;
+    padding: 12px 144px 0px 0px;
+    /* use gap */
+}
+
+li {
+    margin: 10px 5px;
+    display: inline-flex;
+
+}
+
+a {
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: rgb(120, 120, 120);
+}
+
+li:first-child {
+    position: absolute;
+    left: 10vw;
+    top: 10px;
+    padding: 0;
+    margin: 0;
+
+    img {
+
+        width: 30px;
+    }
+}
+
+li:last-child {
+    img {
+
+        width: 25px;
+    }
+}
+
+.dropdown {
+    position: relative;
+    top: 3px;
+    right: 2px;
+    /* make span and add li text in it and make li flex and align center */
+}
+
+/* main content */
+
+main {
+    position: relative;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background: #000;
+    h1>img {
+        width: 100px;
+    }
+}
+
+h1 {
+    font-size: 55px;
+    margin: 10px;
+    font-weight: 400;
+}
+
+main h3 {
+    font-size: 27px;
+    margin: 20px;
+    font-weight: 350;
+    width: 70vw;
+}
+
+button:hover {
+    background-color: #16a3b9;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+main .download {
+    width: 60vw;
+    margin: 20px 0px;
+
+    a {
+        display: flex;
+        position: absolute;
+        left: 15vw;
+        font-size: 25px;
+        font-weight: 490;
+
+        span {
+            font-size: 15px;
+            font-weight: 200;
+            position: relative;
+            top: 2px;
+            left: 4px;
+        }
+
+        img {
+            padding-right: 10px;
+            width: 60px;
+        }
+    }
+
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    /* top: 200px; */
+    gap: 25px;
+}
+
+.lang > div {
+    background: #3a3a3a;
+    /* margin: 10px; */
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.divBox{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background: white;
+
+    border-radius: 200px;
+    padding: 5px 10px;
+    height: 33px;
+    .box{
+        color: rgb(167, 167, 167);
+        text-align: left;
+        padding:15px 29vw 15px 10px;
+        font-size: 1.2rem;
+    }
+    
+}

@@ -1,0 +1,82 @@
+/*font-family: 'Open Sans', sans-serif;*/
+html {
+    background-color: antiquewhite;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    width: 25vmax;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.card .image img {
+    /*height: 22vmax;*/
+    width: 100%;
+    border-radius: 3px;
+}
+
+.card .category {
+    font-family: 'Open Sans', sans-serif;
+    margin: 7px 8px;
+
+    span {
+        border: 1px solid rgb(191, 191, 191);
+        border-radius: 4px;
+        padding: 1px 3px;
+        color: rgb(150, 150, 150);
+        font-weight: 300;
+        font-size: 11px;
+
+    }
+}
+
+.card .content {
+    font-family: 'Open Sans', sans-serif;
+    margin: 4px 5px;
+
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin: 15px;
+        margin-left: 0px;
+        margin-bottom: 4px;
+        text-align: left;
+        font-size: 22px;
+
+    }
+
+    p {
+        font-weight: 200;
+        font-size: 11px;
+    }
+}
+
+.card .readmore {
+    text-align: center;
+    margin: 9px;
+
+    .button {
+        padding: 3px 6px;
+        font-family: 'Open Sans', sans-serif;
+        border: 1px solid rgb(53, 116, 170);
+        border-radius: 6px;
+        font-size: 11px;
+        font-weight: 200;
+        background: rgb(238, 246, 255);
+        color: rgb(6, 62, 95);
+    }
+}
