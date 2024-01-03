@@ -120,6 +120,7 @@ class 19: 1. Fallback fonts means seogue UI, Geneva, Times new Roman....
           10. Overflow hidden means it will hide over flown text
           11. If text overflow is ellipse, it will ellipse flown text
           12. css colors: name, hex, rgb, rgba, hsl
+          13. we can write @font-face{font-family:milk; src: url();}
 
 class 20: exercise
 
