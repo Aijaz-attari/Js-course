@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            transition: 0.2s ease-in-out;
+        }
+
+        .error {
+            color: red;
+        }
+
+        html {
+            height: 100%;
+            width: 100%;
+            font-family: 'poppins';
+        }
+
+        body {
+
+            /* background: url(https://img.freepik.com/free-vector/tropical-landscape-with-sea-bay-night_107791-5364.jpg) no-repeat;
+            */
+            background-size: contain;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(24, 24, 97)
+        }
+
+        div {
+            width: 40vw;
+            background: #3b3b5a70;
+            padding: 20px;
+            color: white;
+            border-radius: 7px;
+            font-size: 17px;
+            margin: auto;
+            margin-top: 10vh;
+            box-shadow: 0px 0px 20px 9px #157aff69, 0px 0px 20px 3px #1566cf63;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #myForm {
+            display: flex;
+            flex-direction: column;
+
+            .styleBack {
+                background: rgba(0, 0, 0, 0.479);
+                outline: none;
+                border: 0.5px solid #006eff;
+                height: 6vh;
+                border-radius: 8px;
+                margin: 10px 0px;
+                color: white;
+                font-family: 'poppins';
+                font-weight: 300;
+                font-size: 12px;
+                padding: 5px;
+            }
+
+            .styleBack::placeholder {
+                color: rgba(255, 255, 255, 0.445);
+                font-family: 'poppins';
+                font-weight: 300;
+                font-size: 12px;
+                padding: 3px;
+            }
+
+        }
+
+        button {
+            color: white;
+            font-family: 'poppins';
+            font-weight: 400;
+            font-size: 12px;
+            background: rgba(0, 0, 0, 0.479);
+            outline: none;
+            border: 1px solid #006eff83;
+            height: 6vh;
+            border-radius: 8px;
+            margin: 10px 0px;
+
+        }
+
+        button:hover {
+            background-color: #157aff;
+            box-shadow: 0px 0px 10px 0px #157aff;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Login</h1>
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input class="styleBack" type="text" id="name" name="name" placeholder="Enter Your Name">
+
+            <label for="email">Email:</label>
+            <input class="styleBack" type="email" id="email" name="email" placeholder="Enter Email">
+
+            <label for="password">Password:</label>
+            <input class="styleBack" type="password" id="password" name="password" placeholder="Enter Password">
+
+            <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            if (name === '') {
+                alert('Name is required');
+                return;
+            }
+
+            if (email === '' || !email.includes('@')) {
+                alert('Valid email is required');
+                return;
+            }
+
+            if (password.length < 6) {
+                alert('Password must be at least 6 characters');
+                return;
+            }
+
+            // Process the form (e.g., submit to a server)
+            alert('Form submitted successfully!');
+        }
+    </script>
+
+</body>
+
+</html>
