@@ -72,3 +72,38 @@ class 14. 1. we can target elements by getElementById, className(nogebi), childN
           6. these all will apply only to single element
           7. gebiClassName will select all classes
           8. gesbiTagName will select all tag
+
+class 15: 1. When we say childNodes, it tells the newlines(text) and comments also in the array. But, using children, we can only see the elements of html
+          2. Prefer using children
+          3. NodeType describe the type of element by NodeTypelist.
+          4.We can write last child and last elementchild
+          5. child element count counts the children
+          6. nextElementSibling is there
+
+class 16: 1. we can create element using document.create.element
+          2. we can set element.class or .id or .setAttribute('name', 'value') or .innertext or .innerHTML
+          3. We append the created element by selecting parent and writing .appenChild(element)
+          4. We can also write text by making separate variable and writing document.createTextNode('text') and then appending it to the element
+          5. replace elements with replaceWith("elementname"), and replace child with replaceChild("selectelement", from which you watn to replace)
+          6. we can even remove child
+          7. getAttribute gives value for ('attribute')
+          8. we can check an attribute by hasAttribute('attribute')
+          8. we can remove an attribute by removeAttribute('attribute')
+
+class 17. 1. Add addEventListener('eventname', function{})
+          2. in function, we can set a variable which have a wide range of attributes, like target; which tells the element you clicked
+          3. it tells the offset in x and y axis
+          4. it also have atttribute called mouseover, mousemove, mouseout, mouseenter, mouseleave, mousedown and mouseup
+          5. dblclick is also there
+
+class 20: 1. To access storage, window.localStorage
+          2. It have a function called setItem(key, value), .getItem, .removeItem
+          3. Clear localStorage by .clear
+          4. we can not set array directly, but it converts to string
+          5. We can overcome this by writing JSON.stringify(value), and writing JSON.parse.localStorage.getItem(key)
+          6. It will return the value as array
+          7. These all are same in sessionStorage
+          8. The main difference is that sessionStorage get deletes after the browser is closed but not in localStorage
+
+class 21: 1. (exercise)
+          2. sometimes files crashes so, preses ctrl and shift and r
