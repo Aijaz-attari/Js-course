@@ -76,7 +76,7 @@ class 14. 1. we can target elements by getElementById, className(nogebi), childN
 class 15: 1. When we say childNodes, it tells the newlines(text) and comments also in the array. But, using children, we can only see the elements of html
           2. Prefer using children
           3. NodeType describe the type of element by NodeTypelist.
-          4.We can write last child and last elementchild
+          4. We can write last child and last elementchild
           5. child element count counts the children
           6. nextElementSibling is there
 

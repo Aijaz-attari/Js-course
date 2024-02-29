@@ -30,7 +30,7 @@ class 5: 1. Windows + shift + s makes snip tool
          11. Definition lists have dt and dd
          12. To change appearence of bullets- type attribute
          13. For ordered- circle disk and square
-         14. For unordered- I i 1 a a
+         14. For unordered- I i 1 a A
 
 class 6: 1. Seo stands for search engine optimisation
          2. core web vitals are used to rank web pages
